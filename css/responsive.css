@@ -1,0 +1,142 @@
+
+
+@media (max-width: 1399px) {
+ 
+}
+
+
+@media (max-width: 1199px) {
+    .header__right {
+        width: 68%;
+    }
+
+    .tab-nav li a {
+        height: 35px;
+        width: 121px;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .f-news__content {
+        width: 55%;
+    }
+
+
+    .header__logo {
+        width: 35px;
+    }
+    .header__menu-row {
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+
+    .header-in {
+        padding: 20px 0;
+    }
+    .header__acr {
+        margin-top: 0px;
+    }
+
+    .tab-nav ul {
+        overflow: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header__logo {
+        width: 25px;
+    }
+    .header-in {
+        padding: 15px 0;
+    }
+
+    .header__acr {
+        flex-direction: column;
+    }
+    .header__acr__item {
+        flex-direction: column;
+    }
+    .header__acr__item__title h3 {
+        position: static;
+        transform: none;
+        margin: 0;
+    }
+    .header__acr__item__title {
+        padding: 8px;
+        width: 100%;
+        height: initial;
+        text-align: center;
+    }
+    .header__acr__item__body__inner h2 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .header__acr__item__body {
+        padding: 10px 0 20px;
+        height: initial !important;
+    }
+
+    .f-news__row {
+        flex-direction: column;
+    }
+    .f-news__content {
+        width: 100%;
+    }
+    .f-news__image {
+        order: -1;
+    }
+    .f-news__content h3 {
+        font-size: 22px;
+    }
+    .f-news__content .bt-rd-button {
+        font-size: 16px;
+        gap: 12px;
+    }
+    .f-news__content .bt-rd-button .arr {
+        width: 22px;
+    }
+    .slider-arrow-1 .owl-nav button {
+        width: 25px;
+    }
+
+
+    .card-section__title h2 {
+        font-size: 25px;
+    }
+    .card-slider .owl-nav {
+        position: absolute;
+        right: unset;
+        top: unset;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .card-slider {
+        padding-bottom: 50px;
+    }
+    .card-section {
+        padding: 50px 0;
+    }
+    .card-slide__content h3 {
+        font-size: 22px;
+    }
+    .card-slide__content h5 {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 370px) {
+    .header__acr__item__body__inner h2 {
+        font-size: 26px;
+    }
+}
