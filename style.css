@@ -243,8 +243,9 @@ p:last-child{
   transition: 0.3s !important;
   height: 120px !important;
   --in-width: 475px;
-  display: block !important;
   overflow: hidden;
+  display: flex !important;
+  align-items: center;
 }
 .header__arc__horizontal .a-active .header__acr__item__body {
   width: var(--in-width);
@@ -254,6 +255,7 @@ p:last-child{
   padding: 5px 10px;
   transition: 0.3s;
   width: var(--in-width);
+  flex-shrink: 0;
 }
 .header__acr__item__body__inner h2 {
   font-size: 43px;
@@ -438,6 +440,7 @@ p:last-child{
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .f-news__content h3 {
   font-size: 28.4px;
